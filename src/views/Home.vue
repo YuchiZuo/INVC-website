@@ -18,6 +18,11 @@
 " >
             新闻
           </div>
+
+          <div style="flex: 1; display: flex; justify-content: center">
+        <NewsList />
+      </div>
+
         </el-card >
 
       </div>
@@ -39,20 +44,19 @@
         </el-card>
       </div>
 
-
-
     </div>
   </div>
-
 
 </template>
 
 <script>
 import Carousel from "@/components/Carousel";
+import NewsList from "@/views/News/NewsList.vue";
 export default {
   name: "home",
   components: {
-    Carousel
+    Carousel,
+    NewsList 
   },
   data(){
     return{

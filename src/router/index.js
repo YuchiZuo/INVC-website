@@ -28,6 +28,8 @@ import History from "@/views/About/History";
 import Resp from "@/views/About/Resp";
 import Honor from "@/views/About/Honor";
 import Team from "@/views/About/Team";
+import NewsDetail from '@/views/News/NewsDetail.vue';
+import NewsList from '@/views/News/NewsList.vue'; 
 
 Vue.use(VueRouter)
 
@@ -96,8 +98,16 @@ const routes = [
     component: NotFound
   },
   {path:'403',name:'Auth',meta:{name:'无权限'}, component:Auth},
-
-
+  // {
+  //   path: '/news',
+  //   name: 'NewsList',
+  //   component: NewsList
+  // },
+  {
+    path: '/news/:id',
+    name: 'NewsDetail',
+    component: NewsDetail
+  }
 ]
 
 const router = new VueRouter({
