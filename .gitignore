@@ -1,10 +1,9 @@
 .DS_Store
 node_modules
 /dist
-# *.json
-# /public/news
-# /public/notice
-# /public/daily
+/public/news
+/public/notice
+/public/daily
 
 
 # local env files
@@ -26,3 +25,4 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+*.json
