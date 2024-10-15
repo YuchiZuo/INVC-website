@@ -9,16 +9,11 @@
           </li>
         </ul>
       </div>
-      <div v-if="selectedNews">
-        <h2>{{ selectedNews.title }}</h2>
-        <img :src="selectedNews.image" alt="" />
-        <p>{{ selectedNews.content }}</p>
-      </div>
     </div>
   </template>
   
   <script>
-  import newsData from '@/views/News/newDate.json'; // 导入 JSON 数据
+  import newsData from '@/views/News/newDate.json'; 
   
     export default {
         name: "NewsList",

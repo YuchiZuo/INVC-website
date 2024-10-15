@@ -2,7 +2,7 @@
     <div>
       <!-- <h1 v-if="newsItem">{{ newsItem.title }}</h1> -->
       <div v-if="markdownContent" v-html="markdownContent"></div>
-      <p v-else>新闻未找到</p>
+      <!-- <p v-else>新闻未找到</p> -->
     </div>
   </template>
   

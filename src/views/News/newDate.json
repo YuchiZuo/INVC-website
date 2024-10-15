@@ -1,11 +1,7 @@
 [
     {
-        "title": "新闻1",
-        "contentFile": "new1.md"
-    },
-    {
-        "title": "新闻2",
-        "contentFile": "new2.md"
+        "title": "这是一条新闻demo",
+        "contentFile": "newsDemo.md"
     }
 ]
   
