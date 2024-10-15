@@ -36,7 +36,7 @@ export default {
   object-fit: cover;
 }
 
-/deep/.el-carousel__container {
+::v-deep.el-carousel__container {
   height: 500px !important;
 }
 
@@ -50,4 +50,3 @@ export default {
   opacity: 0;
 }
 </style>
->
