@@ -29,6 +29,12 @@ npm run build
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+## 修改日志
+
+| 时间 | 修改人 | 内容 |
+| --- | --- | --- |
+| 2024-10-17 | EmberLuo | 创建dev分支，**dev分支是领先于master分支的，未确定稳定性前不可合并到master分支** |
+
 ## 联系我们
 
 伊诺维克交流群：943903776
