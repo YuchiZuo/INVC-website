@@ -122,7 +122,7 @@ router.beforeEach((to,from,next)=>{
   //next:跳转路由的函数
   let adminPath=['/manage','/manage/applyManage','/manage/applyManage']//管理员才能访问的路由
   let memberPath=['/memberCenter','/memberCenter/centerHome']  //成员才能访问的页面
-  let designingPath=['/openSource','/roboCompetition',"/joinUs"]  //待开发页面
+  let designingPath=['/roboCompetition',"/joinUs"]  //待开发页面
 
   let user =JSON.parse(localStorage.getItem('INVC-user')||'{}')//获取用户信息
 
