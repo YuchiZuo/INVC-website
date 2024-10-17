@@ -306,7 +306,7 @@ export default {
 </script>
 
 <style scoped>
-::v-deep.el-form-item__label {
+:deep(.el-form-item__label) {
   font-weight: bold;
 }
 ::v-deep.avatar-uploader .el-upload {
