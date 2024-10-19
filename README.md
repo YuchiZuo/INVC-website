@@ -13,13 +13,13 @@
 npm install
 ```
 
-#### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development(Test locally)
 
 ```shell
 npm run serve
 ```
 
-#### Compiles and minifies for production
+#### Compiles and minifies for production(Cloud server deploymentd)
 
 ```shell
 npm run build
@@ -30,5 +30,4 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 联系我们
-
 伊诺维克交流群：943903776
